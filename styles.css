@@ -1,0 +1,66 @@
+@import url("https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.zinc.min.css");
+  
+  [data-theme="dark"],
+  :root:not([data-theme="light"]) {
+      --pico-background-color: #c0c4c4;
+      --pico-card-background-color: #f4fcfc;
+      --pico-card-box-shadow: 0;
+      --pico-h1-color: #9aa2a8;
+      --pico-h2-color: #9aa2a8;
+      --pico-h3-color: #9aa2a8;
+      --pico-h4-color: #bdc6cc;
+      --pico-h5-color: #9aa2a8;
+      --pico-h6-color: #9aa2a8;
+      --pico-primary-background: #f4fcfc;
+      --pico-primary-hover-background: #ffffff;
+  }
+
+  .card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 10px;
+  }
+
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 2%;
+      margin-bottom: 15px;
+  }
+
+  article {
+      text-align: center;
+  }
+
+  main {
+      max-width: 700px;
+      margin: auto;
+  }
+
+  .icons {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 15em;
+      filter: invert(77%) sepia(4%) saturate(478%) hue-rotate(163deg) brightness(83%) contrast(93%);
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .full {
+    max-width: max-content;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .nopad {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 0.5%;
+  }
